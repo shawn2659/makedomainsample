@@ -1,0 +1,10 @@
+#!/bin/bash
+for j in $(seq 1 4)
+do
+
+        for i in $(seq 1 255)
+        do
+                echo "2.8.$j.$i">>/root/ip-10w-1.txt
+        done
+
+done
